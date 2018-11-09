@@ -1,0 +1,27 @@
+.zero{
+       width:100%;
+       text-align:center;
+     }
+
+.table1{ height"22%"}
+
+.table2 {
+        border:"0";
+        height:"70%";
+       }
+
+input {
+       font-size: 10pt;
+       font-family: fixe,courier;
+       font-weight: bold;
+       margin-left: 0pt;
+       color: #000000;
+       text-align: right;
+      }
+
+.toure {
+        height:100%;
+        width:100%;
+        text-align:center;
+       }
+

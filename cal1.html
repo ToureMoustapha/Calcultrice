@@ -1,0 +1,110 @@
+<html>
+    <head> 
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="cal.css" />
+        <script src="cal.js"></script>
+        <title>Calculatrice</title>
+    <head> 
+
+<body onload="refresh()">
+<div align="center">
+<form name="calculator">
+ <table border="1" cellspacing="0" cellpadding="0" height="22%" >
+    <tr> 
+      <td bgcolor="#000000"><table border="0" cellpadding="2" cellspacing="0" height="70%" bgcolor="#DDDDDD" summary="">
+                               <tr>
+                                 <td colspan="5"><input type="text"  size="32" name="result" onfocus="refresh()"></td>
+                               </tr>
+                               
+                               <tr>
+                                 <td><input type="button" value=" &larr;  " onclick="bksp()"></td>
+                                 <td><input type="button" value=" CE  " onclick="clearAll()"></td>
+                                 <td><input type="button" value="  C  " onclick="clearDisp()"></td>
+                                 <td><input type="button" value="  &plusmn;  " onclick="sign()"></td>
+                                 <td><input type="button" value="  &radic;  " onclick="func('sqrt')"></td>
+                               </tr>
+                           
+                               <tr>
+                                 <td><input type="button" value="  7  " onclick="digit(7)"></td>
+                                 <td><input type="button" value="  8  " onclick="digit(8)"></td>
+                                 <td><input type="button" value="  9  " onclick="digit(9)"></td>
+                                 <td><input type="button" value="  /  " onclick="operator('/')"></td>
+                                 <td><input type="button" value="  %  " onclick="operator('/')"></td>
+                               </tr>
+                                 
+                               <tr>
+                                 <td><input type="button" value="  4  " onclick="digit(4)"></td>
+                                 <td><input type="button" value="  5  " onclick="digit(5)"></td>
+                                 <td><input type="button" value="  6  " onclick="digit(6)"></td>
+                                 <td><input type="button" value="  *  " onclick="operator('*')"></td>
+                                 <td><input type="button" value="1/x" onclick="func('1/x')"></td>
+                               </tr>
+
+                               <tr>
+                                 <td><input type="button" value="  1  " onclick="digit(1)"></td>
+                                 <td><input type="button" value="  2  " onclick="digit(2)"></td>
+                                 <td><input type="button" value="  3  " onclick="digit(3)"></td>
+                                 <td><input type="button" value="  -  " onclick="operator('-')"></td>
+                                 <td rowspan="2"><input type="button" class="toure" value="  =  "onclick="equals()"></td>
+                               </tr>
+
+                               <tr>
+                                 <td colspan="2"><input type="button" class="zero" value="0" onclick="digit(0)"></td>
+                                 <td><input type="button" value="  ,  " onclick="period()"></td>
+                                 <td><input type="button" value="  +  " onclick="operator('+')"></td>
+                               </tr>
+                            </table> 
+      </td>
+    <tr>
+  </table>
+ </body>
+</form>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
